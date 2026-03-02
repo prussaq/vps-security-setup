@@ -9,7 +9,7 @@ This project provides a minimal, predictable baseline hardening for a fresh VPS:
 - Root login disabled
 - UFW firewall baseline
 - Fail2Ban for SSH protection
-- Backs up original /etc/ssh/sshd_config
+- Backup of original /etc/ssh/sshd_config
 
 ---
 
@@ -17,8 +17,7 @@ This project provides a minimal, predictable baseline hardening for a fresh VPS:
 
 ### 1. Local part
 
-Run:
-    cd <path-to-files>
+    cd path-to-vps-security-setup
     bash run.sh root@SERVER_IP
 
 This will:
